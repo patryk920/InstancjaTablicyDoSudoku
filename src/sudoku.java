@@ -1,7 +1,8 @@
+
 /*Jak przechowałbyś stan sudoku? Napisz program, który stworzy instancje tablicy służących do przechowywania sudoku i
  uzupełnij ją przykładową planszą.
  */
-public class sudoku {
+public class Sudoku {
     public static void main(String[] args) {
         int[][] tab = new int[9][9];
         tab[0][0] = 2;
@@ -37,3 +38,4 @@ public class sudoku {
 
     }
 }
+
